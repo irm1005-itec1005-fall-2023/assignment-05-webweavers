@@ -43,9 +43,24 @@ main {
   box-sizing: border-box;
 }
 body{
-  color: violet;
-  font-family: 'Finger Paint', cursive;
+  color: rgb(251, 251, 251);
+  font-family: 'Patrick Hand', cursive;
 }
+#scoreboard{
+  width: 450px;
+  display:flex;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  color:white;
+  font-size: 18px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: rgb(114, 23, 114);
+  color:rgb(88, 13, 78);
+  font-size: 42px;
+  font-weight: 600;
+}
+  
 h1{
   font-size: 54px;
   text-transform:uppercase;
@@ -85,8 +100,8 @@ h1{
 button{
   padding: 10px 20px;
   border-radius: 10px;
-  border-color:#a8dadc;
-  background-color: darkslategray;
+  border-color:#010a0b;
+  background-color: rgb(88, 5, 84);
   color:white;
   font-size: 18px;
   font-weight: 600;
