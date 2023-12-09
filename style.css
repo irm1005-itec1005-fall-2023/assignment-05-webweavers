@@ -25,7 +25,10 @@
 /*
   PAGE / BODY
 */
-
+:root {
+  --violet: #6c63ff;
+  --winning-blocks: #ff6b6b;
+}
 
 main {
   min-height: 100vh;
