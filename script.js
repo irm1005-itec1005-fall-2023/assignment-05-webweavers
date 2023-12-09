@@ -7,11 +7,6 @@
 // Variables
 //
 
-let playerText = document.getElementById("playerText");
-let restartBtn = document.getElementById("restartBtn");
-let boxes = Array.from(document.getElementsByClassName("box"));
-
-
 
 const statusDisplay = document.querySelector('.game--status');
 
