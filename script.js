@@ -6,8 +6,6 @@
 //
 // Variables
 //
-
-
 const statusDisplay = document.querySelector('.game--status');
 
 let gameActive = true;
