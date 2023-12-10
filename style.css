@@ -81,13 +81,19 @@ background-color: #d1c8e6;
 }
 
 .game--restart {
-  background-color: #bc29d6;;
+  background-color: #bc29d6;
   width: 200px;
   height: 50px;
   font-size: 25px;
-  font-weight: 2rem;
   color: #0d0d0d;
+  border-radius: 10px;
   border: 2px solid white;
   font-family: 'Courier New', Courier, monospace;
+  cursor: pointer;
+}
+
+.game--restart:hover {
+  background-color:#d648c8;
+  transform: translateY(-2px);
 }
 
