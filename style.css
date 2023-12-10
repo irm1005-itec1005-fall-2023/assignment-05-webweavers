@@ -117,4 +117,11 @@ background-color: #d1c8e6;
   background-color:#d648c8;
   transform: translateY(-2px);
 }
+@media (width < 600px) {
+  article {background: #d1c8e6(261, 769);}
+  }
+
+@media (width >= 600px) {
+ article  {font-size: 2rem;}
+}
 
